@@ -10,9 +10,9 @@ We will be taking a dive into a dataset that provides insight about the salary o
 
 To further understand the dataset that we are working with, I have provided univariate and multivariate visualizations for better understanding. 
 
-![image](https://user-images.githubusercontent.com/97495724/191972275-fe1bf52e-1e03-478d-8295-d9f22df7290a.png)
+![image](https://user-images.githubusercontent.com/97495724/193087833-7e4328f9-0d98-46c8-bce0-553c4f85a713.png)
 
-* *According to our univariate visualization above, our dataset has a huge range of Job Titles. One thing to keep in mind, as it stands out, the dataset has a lot of entries under the Job Titles of: 'Data Scientist', 'Data Engineer' and 'Data Analyst'.*
+* *Displayed above are the salaries of our Data Science careers from 2020 to 2022. For those looking to become Data Analysts/Scientists, we can see their salaries have either remained steady or increased over the past few years. Data Analysts have seen a big increase in salary, now sitting around $100k.*
 
 ![image](https://user-images.githubusercontent.com/97495724/191973642-656eb2c9-59ff-4aaf-9ba3-7985205e93d6.png)
 
@@ -22,13 +22,13 @@ To further understand the dataset that we are working with, I have provided univ
 
 Now that we have visualized our dataset and understand it better, model creation is our next step. The dataset is a mixture of integers and strings. To ensure no data leakage, we have scaled and one hot encoded our data. Fit them into a pipeline and moved forward with model creation. Random Forest and a K-Nearest Neighbors Models are the two models I decided to run. With the small amount of data provided, our models did not seem to do well. 
 
-![image](https://user-images.githubusercontent.com/97495724/191976878-d2af4bb0-b985-40ba-872d-a2781b86a651.png)
+![image](https://user-images.githubusercontent.com/97495724/193094397-054cd68a-8905-4d4a-b801-a65d025531a5.png)
 
-* When deciding on the model to push out for production, our "best" model would be our hypertuned Random Forest Model. The base Random Forest Model provided with Train/Test scores of 83%/45% respectively. After hypertuning the max_depth to 7, we saw a decrease in training score but an increase in our testing score with 74%/48%, respectively. 
+* When creating models for predictions, our "best" model would be our Random Forest Model. Our Random Forest Model, as displayed above, provides us with the best testing score of 42%. The testing score tells us how well our model will be able to predict the future salaries of Data Science Careers. This Random Forest Model, although performed the best out of our models, would not be best used for production. 
 
 **Recommendations**
 
-Consultation with a subject matter expert could prove beneficial and being provided with a bigger dataset. Survey more employees from the industry.
+If one is looking to earn a consistent increasing salary, job seekers should look into becoming Data Scientists, Data Analysts and Data Engineers. Machine Learning Scientist salaries look to be decreasing. For those who have experience, Directors of Data Science and Principal Data Scientists tend to make the most out of all the careers in Data Science. 
 
 **Contact Information**
 
