@@ -22,7 +22,7 @@ To further understand the dataset that we are working with, I have provided univ
 
 Now that we have visualized our dataset and understand it better, model creation is our next step. The dataset is a mixture of integers and strings. To ensure no data leakage, we have scaled and one hot encoded our data. Fit them into a pipeline and moved forward with model creation. Random Forest and a K-Nearest Neighbors Models are the two models I decided to run. With the small amount of data provided, our models did not seem to do well. 
 
-* *When creating models for predictions, our "best" model would be our Random Forest Model. Our Random Forest Model, as displayed above, provides us with the best testing score of 42%. The testing score tells us how well our model will be able to predict the future salaries of Data Science Careers. This Random Forest Model, although performed the best out of our models, would not be best used for production.*
+* *When creating models for predictions, our "best" model would be our Random Forest Model. Our Random Forest Model would have a high margin of error predicting future salaries with an of $65,000.  The testing score tells us how well our model will be able to predict the future salaries of Data Science Careers. This Random Forest Model, although performed the best out of our models, would not be best used for production.*
 
 **Recommendations**
 
